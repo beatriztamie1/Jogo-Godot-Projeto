@@ -11,12 +11,12 @@ size = Vector2(65, 33)
 [node name="ShipPlayer" type="CharacterBody2D"]
 script = ExtResource("1_tb53f")
 
-[node name="ShipPlayerShape" type="Node2D" parent="."]
+[node name="ShipPlayer-(foguete)" type="Node2D" parent="."]
 
-[node name="ShipPlayerSprite" type="Sprite2D" parent="ShipPlayerShape"]
+[node name="ShipPlayerSprite" type="Sprite2D" parent="ShipPlayer-(foguete)"]
 texture = ExtResource("2_lhypk")
 
-[node name="ExhaustPlayerShipSprite" type="Sprite2D" parent="ShipPlayerShape/ShipPlayerSprite"]
+[node name="ExhaustPlayerShipSprite" type="Sprite2D" parent="ShipPlayer-(foguete)/ShipPlayerSprite"]
 position = Vector2(-55, 0)
 texture = ExtResource("2_56os4")
 script = ExtResource("3_hhadh")

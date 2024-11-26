@@ -6,6 +6,7 @@
 [node name="MainScene" type="Node2D"]
 
 [node name="SpaceBackground" parent="." instance=ExtResource("1_ixsf8")]
+scale = Vector2(1.42117, 1.31826)
 
 [node name="ShipPlayer" parent="." instance=ExtResource("1_d0ly5")]
 position = Vector2(239, 241)

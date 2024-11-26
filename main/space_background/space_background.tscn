@@ -6,6 +6,7 @@
 [ext_resource type="Texture2D" uid="uid://dqlwoe5oblvpc" path="res://assets/Background/Space_Background3.png" id="4_44ro5"]
 
 [node name="SpaceBackground" type="Node2D"]
+scale = Vector2(2.02838, -59.3688)
 script = ExtResource("1_a65xf")
 
 [node name="ParallaxBackground" type="ParallaxBackground" parent="."]
@@ -16,7 +17,7 @@ motion_scale = Vector2(0, 0)
 script = ExtResource("2_e1hfe")
 
 [node name="Sprite2D" type="Sprite2D" parent="ParallaxBackground/Space"]
-scale = Vector2(2.16302, 1.24444)
+scale = Vector2(3.93278, 3.10387)
 texture = ExtResource("4_44ro5")
 centered = false
 
